@@ -1,0 +1,127 @@
+.psb-effect {
+  width: 100%;
+  padding: 50px 0px 70px 0px;
+  /* background-color: #212121; */
+}
+
+.psb-effect .psb-social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.psb-effect a:last-child {
+  margin-right: 0px;
+}
+
+.psb-effect a {
+  text-decoration: none !important;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 5px 3px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+}
+.psb-effect a i {
+  position: relative;
+  z-index: 3;
+  font-size: 17px;
+}
+.psb-effect a.fb {
+  background-color: #3b5998;
+}
+.psb-effect a.tw {
+  background-color: #00aced;
+}
+.psb-effect a.g-plus {
+  background-color: #dd4b39;
+}
+.psb-effect a.email {
+  background-color: #004fed;
+}
+.psb-effect a.reddit {
+  background-color: rgb(255, 69, 0);
+}
+.psb-effect a.pinterest {
+  background-color: #cb2027;
+}
+.psb-effect a.insta {
+  background-color: #bc2a8d;
+}
+.psb-effect a.in {
+  background-color: #007bb6;
+}
+.psb-effect a.tumblr {
+  background-color: #638798;
+}
+.psb-effect a.whatsapp {
+  background-color: #25d366;
+}
+.psb-effect a.skype {
+  background-color: #00aff0;
+}
+.psb-effect a.telegram {
+  background-color: rgb(44, 165, 224);
+}
+
+/* aeneas effect */
+.psb-effect.psb-aeneas a {
+  transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s,
+    border-top-right-radius 0.1s linear 0.1s,
+    border-bottom-right-radius 0.1s linear 0.2s,
+    border-bottom-left-radius 0.1s linear 0.3s;
+}
+.psb-effect.psb-aeneas a i {
+  transition: transform 0.4s linear 0s;
+}
+.psb-effect.psb-aeneas a:hover {
+  transform: rotate(360deg);
+  border-radius: 50%;
+  color: white;
+}
+.psb-effect.psb-aeneas a:hover i {
+  transform: rotate(-360deg);
+}
+
+/* jaques effect */
+.psb-effect.psb-jaques a {
+  transition: border-top-left-radius 0.1s linear 0s,
+    border-top-right-radius 0.1s linear 0.1s,
+    border-bottom-right-radius 0.1s linear 0.2s,
+    border-bottom-left-radius 0.1s linear 0.3s;
+}
+.psb-effect.psb-jaques a:hover {
+  border-radius: 50%;
+}
+
+/* egeon effect */
+.psb-effect.psb-egeon a {
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+}
+.psb-effect.psb-egeon a i {
+  transition: transform 0.2s linear 0s;
+}
+.psb-effect.psb-egeon a:hover {
+  transform: rotate(-90deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.psb-effect.psb-egeon a:hover i {
+  transform: rotate(90deg);
+}
+
+/* claudio effect */
+.psb-effect.psb-claudio a {
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0s;
+}
+.psb-effect.psb-claudio a:hover {
+  transform: scale(1.2);
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+}

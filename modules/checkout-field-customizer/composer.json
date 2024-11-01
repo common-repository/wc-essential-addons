@@ -1,0 +1,22 @@
+{
+    "name": "springdevs/checkout-field-customizer",
+    "description": "Woocommerce Checkout Field Customizer",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "SpringDevs",
+            "email": "contact@springdevs.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SpringDevs\\Cfc\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
